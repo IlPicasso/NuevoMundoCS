@@ -8,9 +8,9 @@ b_i = b.to_i
 
 c = 0
 
-while a != 0 # until a == 0
-    c += a + b
+while a_i != 0 # until a_i == 0
+    c += a_i + b_i
     puts c
-    a = a - 1
-    b = b + 2
+    a_i = a_i - 1
+    b_i = b_i + 2
 end
