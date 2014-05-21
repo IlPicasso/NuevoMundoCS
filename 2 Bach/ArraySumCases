@@ -1,10 +1,10 @@
 #Made By Moises Ortiz
 
-a = [22,33.1,"three"]
+a = [22,33.1,:three]
 a_1 = 0
 a.each do |a|
-	unless a.is_a? String
+	if a.is_a? Numeric
 	a_1 += a
 	end
 end
-puts a_3
+puts a_1
